@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Tianika.github.io/rsschool-cv/cv
