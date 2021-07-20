@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.left-column{
+  background-color: rgb(41, 41, 41);
+  align-content: space-around;
+  color: aliceblue;
+}
+
+.right-column{
+  width: 800px;
+}
+
+.left-column__photo{
+  width: 180px;
+  height: 350px;
+}
