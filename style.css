@@ -4,16 +4,36 @@
 }
 
 .left-column{
+  display:flex;
+  flex-direction: column;
   background-color: rgb(41, 41, 41);
   align-content: space-around;
-  color: aliceblue;
+  color: rgb(255, 253, 240);
 }
 
 .right-column{
-  width: 800px;
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(255, 253, 240);
+  color:rgb(41, 41, 41);
+  width: 600px;
 }
 
 .left-column__photo{
-  width: 180px;
-  height: 350px;
+  width: 150px;
+  height: 300px;
+}
+
+.name{
+  background-color: rgb(255, 194, 25);
+  height: 100px;
+  justify-content: stretch;
+}
+
+.title{
+  padding: 0 50px;
+}
+
+.content{
+  padding: 0 10px 5px 10px;
 }

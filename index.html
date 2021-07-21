@@ -66,6 +66,12 @@
       </div>
     </div>
     <div class="right-column">
+      <div class="developer">
+        <h1>Frontend-developer</h1>
+      </div>
+      <div class="name">
+        <h1>Tatyana Tsybina</h1>
+      </div>
       <div class="about-me">
         <div class="title">
           <h2>About me</h2>
@@ -86,7 +92,7 @@
             <li>Understanding and experience to style and apply design to web pages using CSS</li>
             <li>Knowledge of latest open standards such as CSS3 and HTML5</li>
             <li>0-1 years experience developing websites and applications</li>
-            <li>Experience working with javaScript</li>
+            <li>Experience working with JavaScript</li>
             <li>Experience in solution algorithmic tasks</li>
             <li>Experience with a version control system (GIT)</li>
             <li>Experience working with Photoshop</li>
@@ -104,12 +110,16 @@
           <p>
             <code>
               <pre>
-                decodeMorse = function(morseCode){
-                  return morseCode
-                    .trim()
-                    .split('   ')
-                    .map(word => word.split(' ').map(letter => letter = MORSE_CODE[letter]).join(''))
-                    .join(' ')
+                function mxdiflg(a1, a2) {
+                  let max = -1
+                  
+                  a1.forEach(a => {
+                    a2.forEach(b => {
+                      let dif = Math.abs(a.length - b.length)
+                      dif > max ? max = dif : max
+                    })
+                  })
+                   return max 
                 }
               </pre>
             </code>
