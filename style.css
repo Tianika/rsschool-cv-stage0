@@ -7,6 +7,7 @@
 .left-column{
   display:flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: rgb(41, 41, 41);
   align-content: space-around;
   color: rgb(240, 252, 251);
@@ -16,18 +17,17 @@
 .right-column{
   display:flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: rgb(240, 252, 251);
   color:rgb(41, 41, 41);
   width: 58%;
-  padding-right: 10px;
 }
 
 .left-column__photo{
-  width: 70%;
-  height: 70%;
+  width: 65%;
   margin: auto;
-  margin-bottom: 10%;
-  margin-top: 10%;
+  margin-top: 35px;
+  margin-bottom: 10px;
 }
 
 .photo{
@@ -49,7 +49,8 @@
   font-size: 26px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-  
+  text-transform:uppercase;
+  margin-bottom: 20px;
 }
 
 .title{
@@ -57,7 +58,12 @@
 }
 
 .content{
+  text-align: justify;
   padding: 0 15px 5px 15px;
+}
+
+.text{
+  text-indent: 30px;
 }
 
 h1{
