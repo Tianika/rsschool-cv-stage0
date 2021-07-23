@@ -11,7 +11,7 @@
   <div class="container">
     <div class="left-column">
       <div class="left-column__photo">
-        photo
+        <img src="./img/photo.jpg" alt="My photo" class="photo">
       </div>
       <div class="contact">
         <div class="title">
@@ -107,23 +107,21 @@
           <h2>Sample code</h2>
         </div>
         <div class="content">
-          <p>
+          <pre> 
             <code>
-              <pre>
-                function mxdiflg(a1, a2) {
-                  let max = -1
-                  
-                  a1.forEach(a => {
-                    a2.forEach(b => {
-                      let dif = Math.abs(a.length - b.length)
-                      dif > max ? max = dif : max
-                    })
+              function mxdiflg(a1, a2) {
+                let max = -1
+                
+                a1.forEach(a => {
+                  a2.forEach(b => {
+                    let dif = Math.abs(a.length - b.length)
+                    dif > max ? max = dif : max
                   })
-                   return max 
-                }
-              </pre>
+                })
+                 return max 
+              }
             </code>
-          </p>
+          </pre>
         </div>
       </div>
     </div>
