@@ -70,4 +70,16 @@ h1{
   text-align: center
 }
 
+.logo{
+  width: 60px;
+}
+
+.footer{
+  width: 1024px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: rgb(240, 252, 251);
+  font-size: 20px;
+}
 
