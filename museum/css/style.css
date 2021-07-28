@@ -1,0 +1,75 @@
+
+.wrapper{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.section{
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.dark-section{
+  background-color: #030303;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 195px;
+  height: 50px;
+}
+
+.logo-icon{
+  background-image: url("/assets/svg/logo.svg");
+  background-repeat: no-repeat;
+  background-size: 49px 26px;
+  width: 50px;
+  height: 34px;
+}
+
+.logo-text{
+  color: #ffffff;
+  font-family: 'Forum';
+  text-transform: uppercase;
+  width: 125px;
+  height: 50px;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: 5px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  max-width: 720px;
+  padding: auto;
+}
+
+li{
+  list-style: none;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 50px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
