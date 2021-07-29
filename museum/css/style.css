@@ -167,3 +167,62 @@ h2 {
   letter-spacing: 2px;
   color: #ffffff;
 }
+
+.line {
+  max-width: 1440px;
+  height: 3px;
+  background-color: #710707;
+  margin-bottom: 75px;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 75px 60px;
+  padding: 0;
+}
+
+.card {
+  display: block;
+}
+
+.card-image {
+  width: 440px;
+  height: 285px;
+}
+
+.card-line {
+  width: 300px;
+  height: 2px;
+  margin: 0;
+}
+
+.card-title {
+  margin-top: 25px;
+  margin-bottom: 9px;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.card-content {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.card-content-small {
+  font-size: 18px;
+  line-height: 21px;
+}
