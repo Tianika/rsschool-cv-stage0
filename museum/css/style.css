@@ -1,18 +1,31 @@
+:root {
+  --bg-dark: #030303;
+  --white-text: #ffffff;
+  --gold-text: #9d8665;
+  --bg-red: #710707;
+  --black-text: #000000;
+  --font80: 80px;
+  --font32: 32px;
+  --font28: 28px;
+  --font22: 22px;
+  --font18: 18px;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 a:hover {
-  color: #9d8665;
+  color: var(--gold-text);
 }
 
 a:visited {
-  color: #9d8665;
+  color: var(--gold-text);
 }
 
 .logo-icon:hover {
@@ -43,7 +56,7 @@ header {
 }
 
 .dark-section {
-  background-color: #030303;
+  background-color: var(--bg-dark);
 }
 
 .header-container {
@@ -72,10 +85,10 @@ header {
 .logo-title {
   font-family: 'Forum';
   text-transform: uppercase;
-  font-size: 28px;
+  font-size: var(--font28);
   line-height: 50px;
   letter-spacing: 5px;
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 ul {
@@ -90,10 +103,10 @@ li {
   list-style: none;
   font-family: Roboto;
   font-weight: 200;
-  font-size: 22px;
+  font-size: var(--font22);
   line-height: 50px;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: var(--white-text);
   padding-left: 38px;
   padding-right: 38px;
 }
@@ -107,14 +120,14 @@ li {
 }
 
 h1 {
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 h2 {
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 80px;
+  font-size: var(--font80);
   line-height: 90px;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -122,11 +135,11 @@ h2 {
 }
 
 .h2-white {
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 .h2-gold {
-  color: #9d8665;
+  color: var(--gold-text);
 }
 
 .container-welcome {
@@ -138,17 +151,17 @@ h2 {
   height: 33px;
   font-family: Roboto;
   font-weight: 300;
-  font-size: 28px;
+  font-size: var(--font28);
   line-height: 33px;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: var(--white-text);
   margin-bottom: 75px;
 }
 
 .welcome-button {
   width: 360px;
   height: 75px;
-  background-color: #710707;
+  background-color: var(--bg-red);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -156,22 +169,22 @@ h2 {
 }
 
 .welcome-button:hover {
-  background-color: #9d8665;
+  background-color: var(--gold-text);
 }
 
 .welcome-button-text {
   font-family: Roboto;
   font-weight: 200;
-  font-size: 22px;
+  font-size: var(--font22);
   line-height: 26px;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 .line {
   max-width: 1440px;
   height: 3px;
-  background-color: #710707;
+  background-color: var(--bg-red);
   margin-bottom: 75px;
 }
 
@@ -204,11 +217,11 @@ h2 {
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
+  font-size: var(--font32);
   line-height: 35px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--black-text);
 }
 
 .card-content {
@@ -217,12 +230,12 @@ h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 200;
-  font-size: 22px;
+  font-size: var(--font22);
   line-height: 26px;
-  color: #000000;
+  color: var(--black-text);
 }
 
 .card-content-small {
-  font-size: 18px;
+  font-size: var(--font18);
   line-height: 21px;
 }
