@@ -59,17 +59,18 @@ header {
   background-color: var(--bg-dark);
 }
 
-.header-container {
+.flex-container {
   display: flex;
   justify-content: space-between;
+}
+
+.header-container {
   column-gap: 480px;
   align-items: center;
   height: 50px;
 }
 
 .logo {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 195px;
   height: 50px;
@@ -137,6 +138,7 @@ h2 {
   margin: 0;
 }
 
+h3,
 p {
   margin: 0;
 }
@@ -198,8 +200,6 @@ p {
 }
 
 .container-cards {
-  display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 78px 60px;
   padding: 0;
@@ -249,11 +249,6 @@ p {
   line-height: 21px;
 }
 
-.container-explore {
-  display: flex;
-  justify-content: space-between;
-}
-
 .explore-content {
   display: flex;
   flex-direction: column;
@@ -293,8 +288,6 @@ p {
 }
 
 .video-content {
-  display: flex;
-  justify-content: space-between;
   margin-top: 35px;
 }
 
@@ -308,4 +301,105 @@ p {
   display: flex;
   align-items: center;
   color: var(--black-text);
+}
+
+.tickets-choice {
+  width: 660px;
+}
+
+.tickets-img {
+  width: 720px;
+  height: 550px;
+}
+
+.tickets-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--font28);
+  line-height: 33px;
+  color: var(--white-text);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-radio {
+  display: flex;
+  margin-top: 50px;
+}
+
+.amount {
+  text-align: end;
+}
+
+.ticket-choice {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--font22);
+  line-height: 26px;
+  color: var(--white-text);
+  margin-left: 15px;
+}
+
+.tickets-choice-age {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--font22);
+  line-height: 26px;
+  color: var(--white-text);
+  margin-top: 12px;
+  margin-bottom: 13px;
+}
+
+.button-border {
+  width: 150px;
+  height: 50px;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 0px;
+  margin-bottom: 36px;
+}
+
+.number {
+  all: unset;
+  width: 3em;
+  text-align: center;
+  font-size: var(--font22);
+  line-height: 26px;
+  color: var(--white-text);
+}
+
+.amount-total {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--font28);
+  line-height: 33px;
+  letter-spacing: 1.65px;
+  color: var(--white-text);
+  margin-top: 50px;
+}
+.button-buy {
+  display: block;
+  width: 175px;
+  height: 50px;
+  background-color: var(--white-text);
+  border-radius: 2px;
+}
+
+.button-buy-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--font22);
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: var(--black-text);
+  margin-top: 50px;
 }

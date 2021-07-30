@@ -18,8 +18,8 @@
   <body>
     <div class="wrapper">
       <header class="section dark-section">
-        <div class="container header-container">
-          <div class="logo">
+        <div class="container flex-container header-container">
+          <div class="logo flex-container">
             <a class="logo-icon" href="./index.html"> </a>
             <h1 class="logo-title">
               <a href="./index.html">Louvre</a>
@@ -53,7 +53,7 @@
           <div class="container">
             <h2 class="h2-gold underline-title">Virtual tour</h2>
             <div class="line"></div>
-            <div class="container container-cards">
+            <div class="container flex-container container-cards">
               <div class="card">
                 <a
                   href="https://www.google.com/maps/@48.8606882,2.3356791,3a,90y,328.36h,87.55t/data=!3m7!1e1!3m5!1sAF1QipMZ9YgnArbwEIbTDANeSQYFu9gNqpW_2Sv8FBvY!2e10!3e12!7i4352!8i1815"
@@ -166,7 +166,7 @@
           </div>
         </section>
         <section class="section dark-section" id="explore">
-          <div class="container container-explore">
+          <div class="container flex-container">
             <div class="explore-content">
               <h2 class="explore-content-title h2-white">Picture explore</h2>
               <div class="line"></div>
@@ -205,7 +205,7 @@
               src="/assets/img/video-control-panel.jpg"
               alt="Video control panel"
             />
-            <div class="video-content">
+            <div class="video-content flex-container">
               <h2 class="h2-gold">Video journey</h2>
               <p class="video-content-text">
                 Enter and visit one of the most famous museums in the world and
@@ -215,7 +215,100 @@
           </div>
         </section>
         <section class="section dark-section" id="tickets">
-          <div class="container"></div>
+          <div class="container">
+            <h2 class="h2-white">Buy tickets</h2>
+            <div class="line"></div>
+            <div class="flex-container">
+              <img
+                class="tickets-img"
+                src="/assets/img/tickets-img.jpg"
+                alt="Buy tickets image"
+              />
+              <div class="flex-container tickets-choice">
+                <div class="tickets-type">
+                  <h3 class="tickets-subtitle">Ticket Type</h3>
+                  <form>
+                    <div class="ticket-radio">
+                      <input
+                        type="radio"
+                        name="tickets"
+                        id="permanent"
+                        checked="checked"
+                      />
+                      <label class="ticket-choice" for="permanent"
+                        >Permanent exhibition</label
+                      >
+                    </div>
+                    <div class="ticket-radio">
+                      <input type="radio" name="tickets" id="temporary" />
+                      <label class="ticket-choice" for="temporary"
+                        >Temporary exhibition</label
+                      >
+                    </div>
+                    <div class="ticket-radio">
+                      <input type="radio" name="tickets" id="combined" />
+                      <label class="ticket-choice" for="combined"
+                        >Combined Admission</label
+                      >
+                    </div>
+                  </form>
+                </div>
+                <div class="tickets-amount">
+                  <h3 class="tickets-subtitle amount">Amount</h3>
+                  <div class="tickets-choice-age">Basic 18+</div>
+                  <div class="button-border">
+                    <button
+                      type="button"
+                      onclick="this.nextElementSibling.stepDown()"
+                    >
+                      -
+                    </button>
+                    <input
+                      type="number"
+                      min="0"
+                      max="20"
+                      value="1"
+                      readonly
+                      class="number"
+                    />
+                    <button
+                      type="button"
+                      onclick="this.previousElementSibling.stepUp()"
+                    >
+                      +
+                    </button>
+                  </div>
+                  <div class="tickets-choice-age">Senior 65+</div>
+                  <div class="button-border">
+                    <button
+                      type="button"
+                      onclick="this.nextElementSibling.stepDown()"
+                    >
+                      -
+                    </button>
+                    <input
+                      type="number"
+                      min="0"
+                      max="20"
+                      value="1"
+                      readonly
+                      class="number"
+                    />
+                    <button
+                      type="button"
+                      onclick="this.previousElementSibling.stepUp()"
+                    >
+                      +
+                    </button>
+                  </div>
+                  <div class="amount-total">Total&nbsp€220</div>
+                  <a href="#" class="button-buy">
+                    <div class="button-buy-text">Buy Now</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <section class="section" id="contacts">
           <div class="container"></div>
