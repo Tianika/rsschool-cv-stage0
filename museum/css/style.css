@@ -279,3 +279,33 @@ p {
 .yellow-text {
   color: var(--gold-text);
 }
+
+.video-player {
+  display: block;
+  width: 1440px;
+  height: 629px;
+  margin-top: 15px;
+}
+
+.video-control-panel {
+  width: 1440px;
+  height: 85px;
+}
+
+.video-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.video-content-text {
+  max-width: 720px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--font22);
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: var(--black-text);
+}
