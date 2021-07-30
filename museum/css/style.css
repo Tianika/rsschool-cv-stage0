@@ -137,6 +137,10 @@ h2 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .h2-white {
   color: var(--white-text);
 }
@@ -197,7 +201,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 77px 60px;
+  gap: 78px 60px;
   padding: 0;
 }
 
@@ -217,8 +221,8 @@ h2 {
 }
 
 .card-title {
-  margin-top: 22px;
-  margin-bottom: 7px;
+  margin-top: 20px;
+  margin-bottom: 9px;
   font-family: Forum;
   font-style: normal;
   font-weight: normal;
@@ -243,4 +247,35 @@ h2 {
 .card-content-small {
   font-size: var(--font18);
   line-height: 21px;
+}
+
+.container-explore {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explore-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+}
+
+.explore-content-text {
+  color: var(--white-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  margin-bottom: 26px;
+}
+
+.explore-image-container {
+  width: 720px;
+  height: 700px;
+  margin-top: 16px;
+}
+
+.yellow-text {
+  color: var(--gold-text);
 }
