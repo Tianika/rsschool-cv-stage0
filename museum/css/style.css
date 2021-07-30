@@ -49,7 +49,8 @@ header {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1480px;
+  box-sizing: border-box;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -210,7 +211,7 @@ p {
 }
 
 .card-image {
-  width: 440px;
+  max-width: 440px;
   height: 285px;
 }
 
@@ -265,9 +266,9 @@ p {
   margin-bottom: 26px;
 }
 
-.explore-image-container {
-  width: 720px;
-  height: 700px;
+.explore-image {
+  max-width: 720px;
+  max-height: 700px;
   margin-top: 16px;
 }
 
@@ -277,8 +278,8 @@ p {
 
 .video-player {
   display: block;
-  width: 1440px;
-  height: 629px;
+  max-width: 1440px;
+  max-height: 629px;
   margin-top: 15px;
 }
 
@@ -402,4 +403,37 @@ form {
   letter-spacing: 2px;
   color: var(--black-text);
   margin-top: 50px;
+}
+
+.contacts-subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--font28);
+  line-height: 33px;
+  margin-top: 10px;
+  margin-bottom: 38px;
+}
+
+.contacts-content-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: var(--font22);
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.contacts-png {
+  display: block;
+  width: 960px;
+  height: 620px;
+}
+
+.footer {
+  max-width: 1920px;
+  height: 300px;
+}
+
+.ul-social {
 }
